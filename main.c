@@ -1,9 +1,7 @@
-//Gabriel Raf· Martins Freire 20230145310
+//Gabriel Raf√° Martins Freire 20230145310
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 void selectionSort(int vetor[], int n) {
     int i, j, min_idx, temp;
@@ -53,7 +51,7 @@ int main() {
     // Open the file
     arquivo = fopen(nomedoarquivo, "r");
     if (arquivo == NULL) {
-        printf("N„o foi possÌvel abrir o arquivo %s\n", nomedoarquivo);
+        printf("N√£o foi poss√≠vel abrir o arquivo %s\n", nomedoarquivo);
         return 1;
     }
 
@@ -64,7 +62,7 @@ int main() {
     fclose(arquivo);
 
     // Ask the user which sorting algorithm to use
-    printf("Escolha o algoritmo de ordenaÁ„o:\n");
+    printf("Escolha o algoritmo de ordena√ß√£o:\n");
     printf("1. Selection Sort\n");
     printf("2. Insertion Sort\n");
     printf("Digite sua escolha (1 ou 2): ");
@@ -78,7 +76,7 @@ int main() {
         insertionSort(arr, n);
         printf("Vetor ordenado com Insertion Sort:\n");
     } else {
-        printf("Escolha inv·lida\n");
+        printf("Escolha inv√°lida\n");
         return 1;
     }
 
